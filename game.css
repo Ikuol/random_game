@@ -1,0 +1,170 @@
+body{
+    
+    background-color:rgb(63, 129, 205)
+}
+
+.glass{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    margin-top: 90px;
+    margin-left: 670px;
+    text-align: center;
+    max-width: 520px;
+    padding: 28px 0 30px;
+    margin: 137px auto;
+    border-radius: 10px;
+}
+
+#style{
+       
+        font-family: monospace;
+        position: relative;
+        margin-top: -10px;
+        font-size: 30px;
+        border-radius: 5px;
+        color: azure;
+}
+
+.listitem{
+   border: 0;
+   border-radius: 5px;
+   height: 45px;
+   width: 350px;
+   padding: 0 25px;
+   outline: none;
+   transition: 0.15s;
+   position: relative;
+   margin-top: 30px;
+}
+.listitem:focus{
+    border: 2px solid rgb(68, 186, 255);
+}
+
+.but{
+    border: 0;
+    border-radius: 10px;
+    background: rgb(255, 68, 68);
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.but:hover{
+    background-color:grey;
+}
+
+#play{
+    border: 0;
+    border-radius: 10px;
+    background: rgb(255, 68, 68);
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+    height: 45px;
+}
+
+#list{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+li{
+    position: relative;
+    padding: 8px;
+    font-size: 16px;
+    transition: 0.1s;
+}
+
+li:nth-child(odd){
+    background: rgb(255, 226, 226);
+}
+
+li:hover{
+    background: rgb(255, 168, 168);
+}
+
+.close{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: inline-block;
+    padding: 10.75px;
+    border: 0;
+    background: transparent;
+}
+
+.close:hover{
+    background:rgb(255, 68, 68);
+}
+
+.liste{
+    margin-left: -40px;
+}
+
+#all:hover{
+    color:blue;
+    cursor: pointer;
+}
+
+#complet:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#all{
+    margin-left: -300px;
+}
+
+#complet{
+    margin-left:50px;
+}
+
+
+#div{
+    margin-top: 25px;
+}
+
+.time{
+    position: relative;
+    margin-top: 50px;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 139, 253, 0.25);
+    
+}
+
+.min{
+    margin-top: 20px;
+}
+
+.win{
+    background: rgb(0,255,76);
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 12px 0;
+    transition: 0.2s;
+}
+
+.lose{
+    background: #ff4719;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 12px 0;
+    transition: 0.2s;
+}
+
+.tie{
+    background: rgb(199,199,199);
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 12px 0;
+    transition: 0.2s;
+}
